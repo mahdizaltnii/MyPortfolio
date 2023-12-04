@@ -6,12 +6,11 @@ import Blog from "../components/Blog";
 import Contact from "../components/Contact";
 
 const Home = ({ darkMode }) => {
-  
   return (
     <>
-      <Hero darkMode={darkMode}  />
-      <About darkMode={darkMode}  />
-      <Projects  darkMode={darkMode} />
+      <Hero darkMode={darkMode} />
+      <About darkMode={darkMode} />
+      <Projects darkMode={darkMode} />
       <Blog darkMode={darkMode} />
       <Contact darkMode={darkMode} />
     </>

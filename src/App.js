@@ -16,11 +16,9 @@ function App() {
     <>
       <Header darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       <Routes>
-        <Route path="/" element={<Home darkMode={darkMode}   />} />
+        <Route path="/" element={<Home darkMode={darkMode} />} />
         <Route path="/blog" element={<BlogArchive />} />
       </Routes>
-
-     
     </>
   );
 }
