@@ -4,7 +4,7 @@ const Contact = ({ darkMode }) => {
   return (
     <div className={darkMode ? "dark" : ""}>
       <section
-        className="bg-white dark:bg-gray-800 text-gray-800 dark:text-white px-5 py-32 font-mono"
+        className="bg-slate-100 dark:bg-gray-800 text-gray-800 dark:text-white px-5 py-24 font-mono"
         id="contact"
       >
         <div className="text-center md:w-[60%] mx-auto ">

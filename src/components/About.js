@@ -5,7 +5,7 @@ const About = ({ darkMode }) => {
   return (
     <div className={darkMode ? "dark" : ""}>
       <section
-        className="bg-white dark:bg-gray-800 text-gray-800 dark:text-white px-5 py-32 font-mono"
+        className="bg-slate-200 dark:bg-gray-800 text-gray-800 dark:text-white px-5 py-24 font-mono"
         id="about"
       >
         <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
@@ -45,7 +45,7 @@ const About = ({ darkMode }) => {
             <img
               src={AboutImg}
               alt="coding illustration"
-              className="lgw-[80%] md:ml-auto"
+              className="lgw-[80%] md:ml-auto mt-10"
             />
           </div>
         </div>

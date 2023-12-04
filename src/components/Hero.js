@@ -6,7 +6,7 @@ import { AiOutlineLinkedin, AiOutlineGithub } from "react-icons/ai";
 const Hero = ({ darkMode, toggleDarkMode }) => {
   return (
     <div className={darkMode ? "dark" : ""}>
-      <section className=" bg-white text-gray-800 dark:bg-gray-900 px-5  dark:text-white py-32 font-mono">
+      <section className=" bg-slate-100  text-gray-800 dark:bg-gray-900 px-5  dark:text-white py-24 font-mono">
         <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
           <div className="hero-info pb-5 md:pb-0">
             <h1 className="text-4xl lg:text-6xl">
